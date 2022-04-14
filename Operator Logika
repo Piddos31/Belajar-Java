@@ -1,0 +1,71 @@
+package com.belajar;
+public class Main {
+    public static void main(String[] args){
+        //Operator Logika
+        boolean a,b,c;
+        //AND
+        System.out.println("===AND===");
+        a = true;
+        b = true;
+        c = a && b;
+        System.out.printf("%b && %b = %b \n",a,b,c);
+        a = true;
+        b = false;
+        c = a && b;
+        System.out.printf("%b && %b = %b \n",a,b,c);
+        a = false;
+        b = true;
+        c = a && b;
+        System.out.printf("%b && %b = %b \n",a,b,c);
+        a = false;
+        b = false;
+        c = a && b;
+        System.out.printf("%b && %b = %b \n",a,b,c);
+        System.out.println("");
+        System.out.println("===OR===");
+        //OR
+        a = true;
+        b = true;
+        c = a || b;
+        System.out.printf("%b || %b = %b \n",a,b,c);
+        a = true;
+        b = false;
+        c = a || b;
+        System.out.printf("%b || %b = %b \n",a,b,c);
+        a = false;
+        b = true;
+        c = a || b;
+        System.out.printf("%b || %b = %b \n",a,b,c);
+        a = false;
+        b = false;
+        c = a || b;
+        System.out.printf("%b || %b = %b \n",a,b,c);
+        System.out.println("");
+        System.out.println("===XOR===");
+        //XOR
+        a = true;
+        b = true;
+        c = a ^ b;
+        System.out.printf("%b ^ %b = %b \n",a,b,c);
+        a = true;
+        b = false;
+        c = a ^ b;
+        System.out.printf("%b ^ %b = %b \n",a,b,c);
+        a = false;
+        b = true;
+        c = a ^ b;
+        System.out.printf("%b ^ %b = %b \n",a,b,c);
+        a = false;
+        b = false;
+        c = a ^ b;
+        System.out.printf("%b ^ %b = %b \n",a,b,c);
+        System.out.println("");
+        System.out.println("===NOY(Negasi)===");
+        a = true;
+        c = !a;
+        System.out.println("nilai a dengan (!) menjadi " + c);
+        b = false;
+        c = !b;
+        System.out.println("nilai b dengan (!) menjadi " + c);
+    }
+}
