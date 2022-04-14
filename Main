@@ -1,0 +1,33 @@
+package com.belajar;
+public class Main {
+    public static void main(String[] args){
+        // Operator Aritmatik
+        int a,b,c;
+        float d;
+        //Penjumlahan
+        a = 15;
+        b = 10;
+        c = a + b;
+        System.out.printf("%d + %d = %d \n",a,b,c);
+        //Ppengurangan
+        a = 15;
+        b = 10;
+        c = a - b;
+        System.out.printf("%d - %d = %d \n",a,b,c);
+        //Pembagian
+        a = 15;
+        b = 10;
+        d = a / b;
+        System.out.println(a+" / "+b+" " + " = " +d);
+        //Perkalian
+        a = 15;
+        b = 10;
+        c = a * b;
+        System.out.printf("%d * %d = %d \n",a,b,c);
+        //modulus
+        a = 15;
+        b = 10;
+        c = a % b;
+        System.out.println(a+" % "+b+" "+" = "+c );
+     }
+    }
