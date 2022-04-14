@@ -1,0 +1,34 @@
+package com.belajar;
+public class Main {
+    public static void main(String[] args){
+        // Operator unary
+        int a,b,c;
+        boolean david;
+        // + dan - unary
+        a = 10;
+        System.out.printf("nilai %d dngn + berubah menjadi : %d \n",a, +a);
+        System.out.printf("nilai %d dngn - berubah menjadi : %d \n",a, -a);
+
+        // unary penjumlahan dan pengurangan
+        System.out.println("");
+        b = 20;
+        b++;
+        System.out.println("nilai b akan berubah menjadi : " + b);
+        b = 25;
+        b--;
+        System.out.println("nilai b akan berubah menjadi : " + b);
+        c = 5;
+        System.out.printf("nilai %d dengan ++ akan berubah menjadi %d \n",c,++c);
+        c = 5;
+        System.out.printf("nilai %d dengan -- akan berubah menjadi %d \n",c,c--);
+        System.out.println("jika 'c--' maka harus dipanggil kedua dikarenakan \n"
+                + "proses pengurangan dilakukan setelah output muncul" );
+        System.out.println("ini nilai terbaru c adalah " +c);
+        System.out.println("");
+        //unary boolean dan juga boolean dengan negasi
+        david = true;
+        System.out.println("nilai boolean =" +david);
+        System.out.println("nilai boolean =" + !david);
+
+     }
+    }
