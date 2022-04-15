@@ -1,0 +1,23 @@
+package com.belajar;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+        System.out.println("Latihan Menghitung Luas");
+        int p,l,Luas,Volume,t;
+        Scanner userInput = new Scanner(System.in);
+        System.out.print("panjang = " );
+        p = userInput.nextInt();
+        System.out.print("lebar = ");
+        l = userInput.nextInt();
+        Luas = p*l;
+        System.out.println("Luas persegi panjang adalah "+Luas);
+        System.out.println("====================================");
+        System.out.println("Latihan Menghitung Volume");
+        System.out.print("Tinggi = ");
+        t = userInput.nextInt();
+        Volume = Luas*t;
+        System.out.println("Volume Persegi panjang adalah " +Volume);
+
+
+    }
+}
