@@ -1,0 +1,18 @@
+package com.belajar;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+        Scanner userInput = new Scanner(System.in);
+          int a,b,c;
+          boolean d;
+        System.out.print("Nilai a = ");
+        a = userInput.nextInt();
+        System.out.print("Nilai b = ");
+        b = userInput.nextInt();
+        c = ++a * ++b;
+        c -=10;
+        System.out.println(++c);
+        d = c>=a;
+        System.out.println(d);
+    }
+}
