@@ -1,0 +1,18 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner userInput = new Scanner(System.in);
+        // if-else-if
+        int a=2;
+        System.out.println("Mulai");
+        if (a == 2){
+            System.out.println("aksi 1");
+        }else if (a == 1){
+            System.out.println("aksi 2");
+        }else{
+            System.out.println("selesai");
+        }
+        System.out.println("akhir program");
+    }
+}
