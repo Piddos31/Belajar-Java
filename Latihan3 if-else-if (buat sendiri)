@@ -15,8 +15,8 @@ public class Main {
         }else{
             System.out.println("Maaf Anda belum benar");
             System.out.print("Masukkan ulang nilai Tebakan : ");
-            b = userInput.nextInt();
-        }if (a == b){
+            b = userInput.nextInt();}
+        if (a == b){
             System.out.println("Selamat Anda Benar");
         }else{
             System.out.println("Game Over");
