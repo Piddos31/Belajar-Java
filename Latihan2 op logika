@@ -1,0 +1,23 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        System.out.println("latihan operator logika");
+        System.out.println("=======================================");
+        Scanner userInput = new Scanner(System.in);
+        boolean nnt;
+        int nb = 6;
+        int nt;
+        System.out.print("nilai tebakan anda adalah : " );
+        nt = userInput.nextInt();
+        nnt = nt == nb;
+        System.out.println("nilai yang ditebak adalah " + nnt);
+        System.out.println("========================================");
+        // operasi aljabar boolean
+        System.out.println("masukan nilai diantara 4 dan 9 ");
+        System.out.print("Nilai anda : " );
+        nt = userInput.nextInt();
+        nnt = nt > 4 && nt < 9;
+        System.out.println("tebabakan anda " +nnt);
+    }
+}
