@@ -1,0 +1,18 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner userInput = new Scanner(System.in);
+        //if-else statement
+        int a ;
+        System.out.println(" masukkan nilai tebakan  = " );
+        a = userInput.nextInt();
+        if (a==10){
+            System.out.println("Selamat Anda Benar");
+        }
+        else{
+            System.out.println("Maaf anda salah untuk menebak");
+        }
+        System.out.println("End");
+    }
+}
