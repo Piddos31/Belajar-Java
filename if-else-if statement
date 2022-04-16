@@ -2,7 +2,6 @@ package com.belajar;
 import java.util.*;
 public class Main {
     public static void main(String[] args){
-        Scanner userInput = new Scanner(System.in);
         // if-else-if
         int a=2;
         System.out.println("Mulai");
