@@ -1,0 +1,22 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        // if nested
+        int a,b,c;
+        a=1;
+        b=2;
+        c=3;
+        System.out.println("awal program");
+        if (a==1){
+            System.out.println("nilai a benar"); //statement1
+        }else if(b==2) {
+            System.out.println("nilai a salah dan b benar");//statement4
+        }else if(c==3){
+            System.out.println("a dan b salah dan c benar");//statement2
+        }else {
+            System.out.println("ketiga nilai salah");//statement3
+        }
+        System.out.println("akhir program");
+    }
+}
