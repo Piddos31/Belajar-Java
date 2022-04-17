@@ -1,0 +1,22 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner Input = new Scanner(System.in);
+        // if nested
+        int a;
+        System.out.println("Mari Mencari Tau Kelulusan Anda");
+        System.out.println("Masukkan Nilai Anda");
+        a = Input.nextInt();
+        if(a>100){
+            System.out.println("Maaf nilai tidak terbaca");
+        }else if(a>=75 ){
+            System.out.println("Selamat Anda Lulus ");
+        }else if(a<=74 && a>=60){
+            System.out.println("Anda Dapat mengulang");
+        }else{
+            System.out.println("Maaf Anda Tidak lulus");
+        }
+       System.out.println("Terima Kasih");
+    }
+}
