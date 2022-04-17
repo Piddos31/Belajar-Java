@@ -1,0 +1,22 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner userInput = new Scanner(System.in);
+        // if nested
+        int a,b;
+        a=5;
+        b=2;
+        System.out.println("awal program");
+        if(a==4){
+            if(b==2){
+                System.out.println("aksi1");
+            }else{
+                System.out.println("aksi2");
+            }
+        }else{
+            System.out.println("aksi default");
+        }
+        System.out.println("akhir program");
+    }
+}
