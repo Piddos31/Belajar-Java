@@ -1,0 +1,62 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner Input = new Scanner(System.in);
+        // if nested
+        System.out.println("1.perhitungan ");
+        System.out.println("2.lulus atau tidak ");
+        System.out.println("masukan pilihan");
+        int menu = Input.nextInt();
+        switch (menu) {
+            case 1:
+                String Predikat = "null";
+                System.out.println("Perhitungan");
+                int c;
+                System.out.println("Masukkan nilai : ");
+                c = Input.nextInt();
+                if (c >= 80 && c<=100) {
+                    if (c>100){
+                        System.out.println("Nilai anda kelebihan");
+                    }
+                    Predikat = "A";
+                    System.out.println("Nlai anda mendapat predikat " + Predikat);
+                }else if(c <= 79 && c>=60){
+                    Predikat = "B";
+                    System.out.println("Nilai anda mendapat predikat " + Predikat);
+                }else if(c<=59 && c>=50){
+                    Predikat = "C";
+                    System.out.println("Nilai anda mendapat predikat " + Predikat);
+                }else if(c<=49 && c>=40){
+                    Predikat = "D";
+                    System.out.println("Nilai anda mendapat predikat " + Predikat);
+                }else if(c<=39 && c>=20){
+                    Predikat = "E";
+                    System.out.println("Nilai anda mendapat Predikat " + Predikat);
+                }else if(c<=19 && c>=0){
+                    Predikat = "F";
+                    System.out.println("NIlai anda mendapat Predikat " + Predikat);
+                }else{
+                    System.out.println("Nilai anda melebihi kapasitas");
+                }
+
+                break;
+            case 2:
+                System.out.println("Mari Mencari Tau Kelulusan Anda");
+                System.out.println("Masukkan Nilai Anda");
+                int a = Input.nextInt();
+                if(a>100){
+                    System.out.println("Maaf nilai tidak terbaca");
+                }else if(a>=75 && a<101 ){
+                    System.out.println("Selamat Anda Lulus ");
+                }else if(a<=74 && a>=60){
+                    System.out.println("Anda Dapat mengulang");
+                }else{
+                    System.out.println("Maaf Anda Tidak lulus");
+                }
+                System.out.println("Terima Kasih");
+                break;
+            default:
+                System.out.println("haha");
+        }
+    }
