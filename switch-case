@@ -1,0 +1,23 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        //switchcasw
+        Scanner userInput = new Scanner(System.in);
+        String input;
+        System.out.println("panggil nama: ");
+        input = userInput.next();
+
+        switch (input){
+            case "David":
+                System.out.println("saya david hadir bos");
+                break;
+            case "Jojo":
+                System.out.println("saya jojo hadir bos");
+                break;
+            default:
+                System.out.println(input+ " tidak hadir bos");
+        }
+        System.out.println("\nselesai");
+    }
+}
