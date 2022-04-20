@@ -1,0 +1,24 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        //ternary operator
+        Scanner userInput = new Scanner(System.in);
+        int a,x;
+        System.out.println("masukkan nilai: ");
+        a = userInput.nextInt();
+        x = (a==10)? a*a : a/2;
+        System.out.println("hasil x : " + x);
+        System.out.println("===========Jika memakai if===========");
+        System.out.println("masukkan nilai: ");
+        a = userInput.nextInt();
+        if (a==10){
+            x = a*a;
+            System.out.println("Hasil x = " +x);
+        }else {
+            x = a/2;
+            System.out.println("hasil a != x " +x);
+        }
+
+    }
+}
