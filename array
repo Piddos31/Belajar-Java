@@ -1,0 +1,18 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner userInput = new Scanner(System.in);
+        String[] david;
+        david = new String[4];
+        david[0] = "David";
+        david[1] = " Yandri";
+        david[2] = " Trimagung";
+        david[3] = " Sayuna";
+        System.out.print(david[0]);
+        System.out.print(david[1]);
+        System.out.print(david[2]);
+        System.out.print(david[3]);
+
+    }
+}
