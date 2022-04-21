@@ -1,0 +1,13 @@
+package com.belajar;
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner userInput = new Scanner(System.in);
+        String[][]Nama = {
+                {"david","yandri","trimagung","sayuna"},
+                {"Anasia","florensia","tjanu"}
+        };
+        System.out.println(Nama[1][2]);
+
+    }
+}
