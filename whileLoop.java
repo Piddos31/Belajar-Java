@@ -3,7 +3,7 @@ import java.util.*;
 public class whileLoop {
     public static void main(String[] args) {
         Scanner user = new Scanner(System.in);
-        int a=2;
+        int a=0;
         boolean k = true;
         System.out.println("awal program");
 
